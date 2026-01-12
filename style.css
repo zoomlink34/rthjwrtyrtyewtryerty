@@ -1,0 +1,18 @@
+body { margin: 0; background: #E0E0E0; font-family: sans-serif; overflow-x: hidden; }
+.classic-header { background: #fff; border-bottom: 2px solid #D4AF37; position: relative; }
+.purchase-top-bar { background: #111; color: #fff; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; }
+.search-area input { padding: 5px; border-radius: 4px; border: 1px solid #D4AF37; }
+.search-area button { background: #0056b3; color: #fff; border: none; padding: 5px 10px; cursor: pointer; border-radius: 4px; }
+.highlight-buy-btn { background: #CC0000; color: #fff; text-decoration: none; padding: 8px 15px; font-weight: bold; border-radius: 4px; }
+
+/* ফায়ার কন্টেইনার */
+#fire-container { position: relative; width: 100%; height: 100px; display: flex; justify-content: center; align-items: center; }
+#fireCanvas { position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; }
+.site-name { font-size: 38px; color: #D4AF37; font-family: serif; z-index: 2; text-shadow: 0 0 10px rgba(212, 175, 55, 0.5); }
+
+.logo-row { text-align: center; padding: 10px 0; }
+.social-tray-header img { width: 20px; margin: 0 5px; }
+.classic-nav { background: #FFCC00; padding: 8px; text-align: center; border: 1px solid #000; max-width: 1100px; margin: auto; }
+.content-frame { max-width: 1100px; margin: 20px auto; border: 3px solid #0056b3; background: #D3D3D3; position: relative; }
+#pixel-viewport { width: 100%; height: 600px; position: relative; overflow: hidden; background: #C0C0C0; cursor: grab; }
+#sold-out-overlay { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) rotate(-10deg); background: rgba(204, 0, 0, 0.9); color: white; font-size: 80px; font-weight: bold; padding: 20px 50px; border: 8px double white; z-index: 1000; display: none; }
